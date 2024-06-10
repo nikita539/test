@@ -22,3 +22,6 @@ class User {
     }
 
 }
+const user = new User("Nikita", "Evteev")
+
+console.log(user)
