@@ -1,15 +1,11 @@
-let count = 0;
-
-for (let i = 0; i < 10; i++) {
-    count = i
+function count(number) {
+    for (let i = 0; i <= 10; i++) {
+        console.log(i)
+    }
 }
-
-
 function recursionSum(count) {
-    if (count == 0) return 1
+    if (count == 0) return 0
     return count + recursionSum(count - 1)
 } 
 
-const answer = recursionSum(10)
 
-console.log(answer)
