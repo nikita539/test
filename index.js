@@ -13,3 +13,12 @@ function recursionSum(count) {
 const answer = recursionSum(10)
 
 console.log(answer)
+
+class User {
+
+    constructor(name,serName) {
+        this.name = name
+        this.serName = serName
+    }
+
+}
