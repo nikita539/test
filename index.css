@@ -19,7 +19,7 @@ body {
 }
 
 .jar_rim {
-    width: 150px;
+    width: 250px;
     height: 20px;
     background-color: lightsteelblue;
 }
@@ -29,4 +29,27 @@ body {
     border-radius: 40px;
     width: 400px;
     height: 600px;
+}
+
+.jar_bottom {
+    width: 400px;
+    height: 30px;
+    background-color: grey;
+    position: relative;
+    bottom: 30px;
+    border-radius: 0 0 30px 30px
+}
+
+.plant {
+    width: 200px;
+    height: 200px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    align-items: center;
 }
