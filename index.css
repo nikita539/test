@@ -1,10 +1,32 @@
-.flowers_container {
-    width: 100%;
-    height: 100%;
+body {
     display: flex;
+    margin: 0%;
+    justify-content: space-between;
 }
 
 
-h1 {
-    font-size: large;
+
+.name_of_the_project {
+    margin: auto;
+    width: 50%;
+}
+
+.jar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.jar_rim {
+    width: 150px;
+    height: 20px;
+    background-color: lightsteelblue;
+}
+
+.jar_body {
+    background-color: lightsteelblue;
+    border-radius: 40px;
+    width: 400px;
+    height: 600px;
 }
