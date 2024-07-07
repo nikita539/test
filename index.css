@@ -1,7 +1,8 @@
 body {
     display: flex;
     margin: 0%;
-    justify-content: space-between;
+    justify-content: space-around;
+    height: 100vh;
 }
 
 
@@ -41,8 +42,8 @@ body {
 }
 
 .plant {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
 }
 
 img {
@@ -51,5 +52,6 @@ img {
 }
 
 .container {
-    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
