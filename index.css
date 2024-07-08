@@ -41,14 +41,14 @@ body {
     border-radius: 0 0 30px 30px
 }
 
-.plant {
-    width: 100px;
+img {
     height: 100px;
+    width: 100px;
 }
 
-img {
-    height: 100%;
-    width: 100%;
+.plant_container {
+    width: 100px;
+    height: 100px;
 }
 
 .container {
