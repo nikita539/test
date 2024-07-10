@@ -21,14 +21,13 @@ for (let i = 0; i < plantsPlaces.length; i++) {
     }
 }
 
-dropzone.ondrop = function(event) {
+dropzone.addEventListener('drop', function(event) {
     event.preventDefault()
     event.dataTransfer.dropEffect = "move"
     const elem = document.getElementById(event.dataTransfer.getData('text/plain'))
     event.target.appendChild(elem)
-}
+})
 
-dropzone.ondragover = function(event) {
+dropzone.addEventListener('dragover', function(event) {
     event.preventDefault()
-    console.log('dropzoneondragover')
-}
+})
