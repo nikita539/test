@@ -44,11 +44,13 @@ body {
 img {
     height: 100px;
     width: 100px;
+    position: relative;
 }
 
 .plant_container {
     width: 100px;
     height: 100px;
+    position: relative;
 }
 
 .container {
