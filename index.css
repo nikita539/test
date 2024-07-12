@@ -1,11 +1,47 @@
 body {
     display: flex;
-    margin: 0%;
-    justify-content: space-around;
+    margin: 0;
     height: 100vh;
+    width: 100vw;
+}
+
+/* body items */
+
+.left_plant_container {
+    order: 1;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right_plant_container {
+    order: 3;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jar_container {
+    order: 2;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
+
+.plant_place {
+    position: relative;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    position: relative;
+}
 
 .name_of_the_project {
     margin: auto;
@@ -39,21 +75,4 @@ body {
     position: relative;
     bottom: 30px;
     border-radius: 0 0 30px 30px
-}
-
-img {
-    height: 100px;
-    width: 100px;
-    position: relative;
-}
-
-.plant_container {
-    width: 100px;
-    height: 100px;
-    position: relative;
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
 }

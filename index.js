@@ -4,7 +4,6 @@ for (let i = 0; i < plants.length; i++) {
     dragElement(plants[i])
 }
 
-
 function dragElement(terrariumElement) {
 	let pos1 = 0,
 		pos2 = 0,
